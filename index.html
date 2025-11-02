@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VINH® - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo"><a href="#hero">VINHFOLIO</a></div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">[ HOME ]</a></li>
+            <li><a href="#aboutme">[ ABOUT ME ]</a></li>
+            <li><a href="#service">[ SERVICE ]</a></li>
+            <li><a href="#contact">[ CONTACT ]</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <h1 class="hero-title"><img src="asset/logo.png" alt="VINH®"></h1>
+        <img src="asset/vinhmontagne.JPG" class="hero-image" alt="Portfolio Hero">
+        <p class="hero-tagline">
+            Because<br>
+            every <span class="vision">vision</span><br>
+            deserves a little <span class="magic">magic</span>
+        </p>
+    </section>
+
+    <!-- Collaboration Section -->
+    <section class="collaboration" id="aboutme">
+        <div class="collab-images">
+            <img src="asset/montagne.JPG" alt="Nature photography" class="collab-img">
+            <img src="asset/vinha.JPG" alt="Mountain landscape" class="collab-img">
+            <img src="asset/jap.JPG" alt="Urban architecture" class="collab-img">
+        </div>
+        <div class="collab-text">
+            <h2>/Video Editor<br>/Photographer<br>/Designer<br>/Video Maker</h2>
+            <div class="collab-available">
+                <h3>Available for collaboration</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="service">
+        <div class="services-header">
+            <h2>SERVICES</h2>
+            <img src="asset/CD.png" class="cd" alt="CD decoration">
+        </div>
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-number">0-1</div>
+                <div class="service-name">Webdesign</div>
+            </div>
+            <div class="service-item">
+                <div class="service-number">0-2</div>
+                <div class="service-name">UX/UI design</div>
+            </div>
+            <div class="service-item">
+                <div class="service-number">0-3</div>
+                <div class="service-name">Creative design</div>
+            </div>
+            <div class="service-item">
+                <div class="service-number">0-4</div>
+                <div class="service-name">Photography</div>
+            </div>
+            <div class="service-item">
+                <div class="service-number">0-5</div>
+                <div class="service-name">Videography</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>
+            YOU CAN TURN YOUR
+            <br><div class="imagination">IMAGINATION</div>
+            INTO
+            <br><div class="imagination">GREAT PROJECT</div>
+        </h2>
+        <form class="contact-form">
+            <input type="text" class="form-input" placeholder="NAME*" required>
+            <input type="tel" class="form-input" placeholder="PHONE*" required>
+            <input type="email" class="form-input" placeholder="EMAIL*" required>
+            <input class="form-input" placeholder="WHAT IS YOUR IDEA ?*" required>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-links">
+            <a href="https://instagram.com" target="_blank">INSTAGRAM</a>
+            <a href="https://linkedin.com" target="_blank">LINKEDIN</a>
+        </div>
+        <div class="footer-contact">
+            +33 7 66 19 94 78<br>
+            CONTACT@VINHTRINH.PRO
+        </div>
+    </footer>
+
+<!-- Scripts ---------- -->
+<!-- GSAP de base -->
+<script src="js/GSAP/gsap.min.js"></script>
+<!-- GSAP modules -->
+<script src="js/GSAP/Draggable.min.js"></script>
+<script src="js/GSAP/MotionPathPlugin.min.js"></script>
+<script src="js/GSAP/ScrollToPlugin.min.js"></script>
+<script src="js/GSAP/ScrollTrigger.min.js"></script>
+
+    <!-- Custom JS-->
+    <script src="main.js"></script>
+</body>
+</html>
